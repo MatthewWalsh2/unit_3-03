@@ -1,0 +1,85 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{432, 368}, {154, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "check_answer_button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "check if you won",
+          "uuid" : "5E93A1E2-C69C-472F-B240-47D1F9C71B6F",
+          "class" : "Button",
+          "name" : "check_answer_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{375, 183}, {256, 29}}",
+        "class" : "SegmentedControl",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "segments" : "rock|paper|scisors",
+          "frame" : "{{452, 370}, {120, 29}}",
+          "flex" : "LR",
+          "name" : "user_answer_control",
+          "class" : "SegmentedControl",
+          "uuid" : "7B3FC470-4391-4E5D-9B26-A158656C9365"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{436, 458}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "FE311A54-CE5C-4210-BCF5-D7E7A773E21F",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{375, 93}, {296, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "EDA2F420-D8CE-4D61-AB6C-9C41AE37A6B0",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Choose rock paper or scisors",
+          "name" : "instructions_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
